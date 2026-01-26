@@ -3,8 +3,8 @@ capacity = int(input())
 
 count = 0
 
-while capacity > passengers:
-    capacity -= passengers
+while passengers > 0:
+    passengers -= capacity
     count += 1
 
 print(count)
