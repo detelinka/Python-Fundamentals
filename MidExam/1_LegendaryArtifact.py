@@ -1,6 +1,4 @@
 energy = float(input())
-energy = round(energy, 2)
-
 mountain = 0
 artifacts = 0
 
