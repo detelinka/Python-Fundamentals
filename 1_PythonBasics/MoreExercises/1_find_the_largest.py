@@ -1,2 +1,3 @@
-n = int(input())
-print(n)
+num = input()
+largest = ''.join(sorted(num, reverse=True))
+print(largest)
